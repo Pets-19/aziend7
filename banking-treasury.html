@@ -1,0 +1,3419 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Banking & Treasury Solutions | Aziend Consultancy UAE</title>
+        <meta
+            name="description"
+            content="Expert corporate banking guidance and treasury management for UAE businesses. 50+ bank partners, 95% success rate, streamlined account opening process."
+        />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <link rel="alternate icon" href="favicon.ico" />
+
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Lucide Icons CDN -->
+        <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="min-h-screen bg-white text-gray-900">
+        <!-- Header Container -->
+        <div id="header-container">
+            <!-- Header content will be loaded from header.html -->
+        </div>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section class="py-20 bg-gradient-to-br from-white to-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <div
+                        class="inline-flex items-center space-x-2 bg-custom-100 rounded-full px-4 py-2 mb-6"
+                    >
+                        <i
+                            data-lucide="credit-card"
+                            class="w-5 h-5 text-custom-600"
+                        ></i>
+                        <span class="text-sm font-medium text-custom-800"
+                            >Banking & Treasury Specialists</span
+                        >
+                    </div>
+
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                        Banking & Treasury
+                        <span class="text-custom-600">Solutions</span>
+                    </h1>
+
+                    <p
+                        class="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto"
+                    >
+                        Expert corporate banking guidance and treasury
+                        management for UAE businesses
+                    </p>
+
+                    <!-- Key Metrics -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div
+                                class="text-3xl font-bold text-custom-600 mb-2"
+                            >
+                                50+
+                            </div>
+                            <div class="text-gray-600">Bank Partners</div>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div
+                                class="text-3xl font-bold text-custom-600 mb-2"
+                            >
+                                95%
+                            </div>
+                            <div class="text-gray-600">Success Rate</div>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div
+                                class="text-3xl font-bold text-custom-600 mb-2"
+                            >
+                                2-6
+                            </div>
+                            <div class="text-gray-600">Week Timeline</div>
+                        </div>
+                    </div>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button
+                            class="bg-custom-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-custom-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2"
+                        >
+                            <i data-lucide="building-2" class="w-5 h-5"></i>
+                            <span>Open Corporate Account</span>
+                        </button>
+                        <button
+                            class="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-all flex items-center justify-center space-x-2"
+                        >
+                            <i data-lucide="package" class="w-5 h-5"></i>
+                            <span>Get Banking Package</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Account Opening Calculator -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+                    >
+                        Account Opening Calculator
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Get instant estimates for banking fees and requirements
+                        based on your business needs
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl p-8 md:p-12 max-w-4xl mx-auto shadow-lg"
+                >
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Left Column - Inputs -->
+                        <div class="space-y-6">
+                            <!-- Bank Selection -->
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-gray-800 mb-3"
+                                    >Select Bank</label
+                                >
+                                <select
+                                    id="bankSelect"
+                                    class="w-full p-4 border-2 border-gray-200 rounded-lg focus:border-custom-600 focus:outline-none transition-colors"
+                                >
+                                    <option value="">
+                                        Choose your preferred bank
+                                    </option>
+                                    <option value="enbd">Emirates NBD</option>
+                                    <option value="adcb">
+                                        Abu Dhabi Commercial Bank
+                                    </option>
+                                    <option value="fab">
+                                        First Abu Dhabi Bank
+                                    </option>
+                                    <option value="mashreq">
+                                        Mashreq Bank
+                                    </option>
+                                    <option value="cbd">
+                                        Commercial Bank of Dubai
+                                    </option>
+                                    <option value="hsbc">HSBC UAE</option>
+                                    <option value="sc">
+                                        Standard Chartered
+                                    </option>
+                                    <option value="rakbank">RAK Bank</option>
+                                </select>
+                            </div>
+
+                            <!-- Business Type -->
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-gray-800 mb-3"
+                                    >Business Type</label
+                                >
+                                <div class="grid grid-cols-3 gap-3">
+                                    <button
+                                        class="business-type-btn p-3 border-2 border-gray-200 rounded-lg text-center hover:border-custom-600 transition-colors"
+                                        data-type="mainland"
+                                    >
+                                        <div class="text-sm font-medium">
+                                            Mainland
+                                        </div>
+                                    </button>
+                                    <button
+                                        class="business-type-btn p-3 border-2 border-gray-200 rounded-lg text-center hover:border-custom-600 transition-colors"
+                                        data-type="freezone"
+                                    >
+                                        <div class="text-sm font-medium">
+                                            Free Zone
+                                        </div>
+                                    </button>
+                                    <button
+                                        class="business-type-btn p-3 border-2 border-gray-200 rounded-lg text-center hover:border-custom-600 transition-colors"
+                                        data-type="offshore"
+                                    >
+                                        <div class="text-sm font-medium">
+                                            Offshore
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Account Type -->
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-gray-800 mb-3"
+                                    >Account Type</label
+                                >
+                                <select
+                                    id="accountType"
+                                    class="w-full p-4 border-2 border-gray-200 rounded-lg focus:border-custom-600 focus:outline-none transition-colors"
+                                >
+                                    <option value="">
+                                        Select account type
+                                    </option>
+                                    <option value="current">
+                                        Business Current Account
+                                    </option>
+                                    <option value="savings">
+                                        Business Savings Account
+                                    </option>
+                                    <option value="multicurrency">
+                                        Multi-Currency Account
+                                    </option>
+                                    <option value="islamic">
+                                        Islamic Banking Account
+                                    </option>
+                                </select>
+                            </div>
+
+                            <!-- Monthly Turnover -->
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-gray-800 mb-3"
+                                >
+                                    Expected Monthly Turnover:
+                                    <span
+                                        id="turnoverValue"
+                                        class="text-custom-600"
+                                        >AED 100,000</span
+                                    >
+                                </label>
+                                <input
+                                    type="range"
+                                    id="turnoverSlider"
+                                    min="10000"
+                                    max="10000000"
+                                    value="100000"
+                                    class="w-full h-3 rounded-lg appearance-none cursor-pointer bg-gray-200"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Right Column - Results -->
+                        <div class="space-y-6">
+                            <!-- Fee Calculation -->
+                            <div
+                                class="bg-gradient-to-r from-gray-800 to-gray-900 text-white p-6 rounded-xl"
+                            >
+                                <h3
+                                    class="text-lg font-semibold mb-4 flex items-center"
+                                >
+                                    <i
+                                        data-lucide="calculator"
+                                        class="w-5 h-5 mr-2"
+                                    ></i>
+                                    Estimated Costs
+                                </h3>
+                                <div class="space-y-3">
+                                    <div class="flex justify-between">
+                                        <span>Account Opening Fee:</span>
+                                        <span
+                                            id="openingFee"
+                                            class="font-semibold text-custom-600"
+                                            >AED 0</span
+                                        >
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Minimum Balance:</span>
+                                        <span
+                                            id="minBalance"
+                                            class="font-semibold text-custom-600"
+                                            >AED 0</span
+                                        >
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Monthly Fees:</span>
+                                        <span
+                                            id="monthlyFee"
+                                            class="font-semibold text-custom-600"
+                                            >AED 0</span
+                                        >
+                                    </div>
+                                    <hr class="border-white/20" />
+                                    <div
+                                        class="flex justify-between text-lg font-bold"
+                                    >
+                                        <span>Service Fee:</span>
+                                        <span
+                                            id="serviceFee"
+                                            class="text-custom-600"
+                                            >AED 4,500</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Requirements Checklist -->
+                            <div
+                                class="bg-green-50 border border-green-200 p-6 rounded-xl"
+                            >
+                                <h3
+                                    class="text-lg font-semibold text-green-800 mb-4 flex items-center"
+                                >
+                                    <i
+                                        data-lucide="check-circle"
+                                        class="w-5 h-5 mr-2"
+                                    ></i>
+                                    Required Documents
+                                </h3>
+                                <ul
+                                    id="requirementsList"
+                                    class="space-y-2 text-sm text-green-700"
+                                >
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2"
+                                        ></i>
+                                        Select options to see requirements
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Processing Timeline -->
+                            <div
+                                class="bg-blue-50 border border-blue-200 p-6 rounded-xl"
+                            >
+                                <h3
+                                    class="text-lg font-semibold text-blue-800 mb-4 flex items-center"
+                                >
+                                    <i
+                                        data-lucide="clock"
+                                        class="w-5 h-5 mr-2"
+                                    ></i>
+                                    Processing Timeline
+                                </h3>
+                                <div
+                                    id="timelineInfo"
+                                    class="text-sm text-blue-700"
+                                >
+                                    <div
+                                        class="flex items-center justify-between"
+                                    >
+                                        <span>Expected Duration:</span>
+                                        <span class="font-semibold"
+                                            >Select bank for timeline</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Calculate Button -->
+                    <div class="mt-8 text-center">
+                        <button
+                            onclick="calculateBankingCosts()"
+                            class="bg-custom-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-custom-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2 mx-auto"
+                        >
+                            <i data-lucide="calculator" class="w-5 h-5"></i>
+                            <span>Calculate Costs & Requirements</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banking Partners Grid -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+                    >
+                        Our Banking Partners
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Comprehensive partnerships with UAE's leading financial
+                        institutions
+                    </p>
+                </div>
+
+                <!-- UAE National Banks -->
+                <div class="mb-16">
+                    <h3
+                        class="text-2xl font-bold text-gray-800 mb-8 text-center"
+                    >
+                        UAE National Banks
+                    </h3>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6"
+                    >
+                        <div
+                            class="bg-white p-6 rounded-xl border border-gray-200 text-center hover:shadow-lg transition-all"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >ENBD</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-gray-800 mb-2">
+                                Emirates NBD
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="bg-green-600 text-white px-2 py-1 rounded text-xs"
+                                >
+                                    98% Success
+                                </div>
+                                <div>3-4 weeks</div>
+                                <div class="font-medium text-gray-800">
+                                    Min: AED 25,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Multi-currency</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Islamic</span
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-red-600 to-red-700 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >ADCB</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-gray-800 mb-2">
+                                ADCB
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="bg-green-600 text-white px-2 py-1 rounded text-xs"
+                                >
+                                    96% Success
+                                </div>
+                                <div>2-3 weeks</div>
+                                <div class="font-medium text-gray-800">
+                                    Min: AED 20,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Premium</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Trade</span
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-green-600 to-green-700 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >FAB</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                First Abu Dhabi
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    94% Success
+                                </div>
+                                <div>3-5 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 30,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Corporate</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Global</span
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-orange-600 to-orange-700 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >CBD</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                CBD
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    92% Success
+                                </div>
+                                <div>2-4 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 15,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >SME</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Flexible</span
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-purple-600 to-purple-700 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >RAK</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                RAK Bank
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    90% Success
+                                </div>
+                                <div>2-3 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 10,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Business</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Digital</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- International Banks -->
+                <div class="mb-16">
+                    <h3
+                        class="text-2xl font-bold text-gray-800 mb-8 text-center"
+                    >
+                        International Banks
+                    </h3>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto"
+                    >
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-red-700 to-red-800 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >HSBC</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                HSBC UAE
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    88% Success
+                                </div>
+                                <div>4-6 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 50,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Global</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Premium</span
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-blue-800 to-blue-900 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >SC</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                Standard Chartered
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    85% Success
+                                </div>
+                                <div>3-5 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 40,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Corporate</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Trade</span
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >CITI</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                Citibank
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    82% Success
+                                </div>
+                                <div>4-7 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 100,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Treasury</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Global</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Islamic Banks -->
+                <div>
+                    <h3
+                        class="text-2xl font-bold text-gray-800 mb-8 text-center"
+                    >
+                        Islamic Banking
+                    </h3>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto"
+                    >
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-green-700 to-green-800 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >ADIB</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                ADIB
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    95% Success
+                                </div>
+                                <div>2-4 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 25,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Sharia</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Corporate</span
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-teal-700 to-teal-800 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >DIB</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                Dubai Islamic
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    93% Success
+                                </div>
+                                <div>3-5 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 20,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Islamic</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >SME</span
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="bank-card p-6 rounded-xl border border-gray-200 text-center"
+                        >
+                            <div
+                                class="w-16 h-16 bg-gradient-to-r from-orange-700 to-orange-800 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-white font-bold text-sm"
+                                    >MAI</span
+                                >
+                            </div>
+                            <h4 class="font-semibold text-aziend-dark mb-2">
+                                Mashreq Al Islami
+                            </h4>
+                            <div class="space-y-2 text-sm text-gray-600">
+                                <div
+                                    class="success-rate text-white px-2 py-1 rounded text-xs"
+                                >
+                                    91% Success
+                                </div>
+                                <div>3-4 weeks</div>
+                                <div class="font-medium text-aziend-dark">
+                                    Min: AED 30,000
+                                </div>
+                            </div>
+                            <div class="mt-4 flex flex-wrap gap-1">
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Sharia</span
+                                >
+                                <span
+                                    class="bg-gray-100 text-xs px-2 py-1 rounded"
+                                    >Business</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Account Types Comparison -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+                    >
+                        Account Types Comparison
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Choose the right banking solution for your business
+                        needs
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-lg"
+                >
+                    <div class="overflow-x-auto">
+                        <table class="w-full">
+                            <thead>
+                                <tr class="bg-gray-800 text-white">
+                                    <th class="text-left p-6 font-semibold">
+                                        Feature
+                                    </th>
+                                    <th class="text-center p-6 font-semibold">
+                                        Current Account
+                                    </th>
+                                    <th class="text-center p-6 font-semibold">
+                                        Multi-Currency
+                                    </th>
+                                    <th class="text-center p-6 font-semibold">
+                                        Islamic Banking
+                                    </th>
+                                    <th class="text-center p-6 font-semibold">
+                                        Investment Account
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white">
+                                <tr class="border-b border-gray-100">
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        Minimum Balance
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        AED 10,000 - 25,000
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        AED 25,000 - 50,000
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        AED 15,000 - 30,000
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        AED 50,000 - 100,000
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-gray-100 bg-gray-50">
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        Monthly Fees
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        AED 50 - 200
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        AED 100 - 300
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        No fixed fees
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        AED 200 - 500
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        Processing Time
+                                    </td>
+                                    <td class="p-6 text-center">2-4 weeks</td>
+                                    <td class="p-6 text-center">3-6 weeks</td>
+                                    <td class="p-6 text-center">2-5 weeks</td>
+                                    <td class="p-6 text-center">4-8 weeks</td>
+                                </tr>
+                                <tr class="border-b border-gray-100 bg-gray-50">
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        Debit Cards
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        Online Banking
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-gray-100 bg-gray-50">
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        International Transfers
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        Multi-Currency Support
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="x"
+                                            class="w-5 h-5 text-red-500 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-gray-100 bg-gray-50">
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        Sharia Compliant
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="x"
+                                            class="w-5 h-5 text-red-500 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="x"
+                                            class="w-5 h-5 text-red-500 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">Optional</td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        class="p-6 font-semibold text-aziend-dark"
+                                    >
+                                        Investment Services
+                                    </td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="x"
+                                            class="w-5 h-5 text-red-500 mx-auto"
+                                        ></i>
+                                    </td>
+                                    <td class="p-6 text-center">Limited</td>
+                                    <td class="p-6 text-center">Limited</td>
+                                    <td class="p-6 text-center">
+                                        <i
+                                            data-lucide="check"
+                                            class="w-5 h-5 text-green-600 mx-auto"
+                                        ></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="text-center mt-8">
+                    <button
+                        class="bg-custom-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-custom-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2 mx-auto"
+                    >
+                        <i data-lucide="download" class="w-5 h-5"></i>
+                        <span>Download Comparison Guide</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Treasury Services -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+                    >
+                        Treasury Services
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Comprehensive treasury management solutions for growing
+                        businesses
+                    </p>
+                </div>
+
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                >
+                    <!-- Cash Flow Management -->
+                    <div
+                        class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl border border-blue-200 hover:shadow-lg transition-all"
+                    >
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-6"
+                        >
+                            <i
+                                data-lucide="trending-up"
+                                class="w-8 h-8 text-white"
+                            ></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">
+                            Cash Flow Management
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Optimize your working capital and liquidity
+                            management with professional cash flow forecasting
+                            and planning.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-blue-600"
+                                ></i>
+                                Daily cash positioning
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-blue-600"
+                                ></i>
+                                Liquidity forecasting
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-blue-600"
+                                ></i>
+                                Investment strategies
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Foreign Exchange Services -->
+                    <div
+                        class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl border border-green-200 hover:shadow-lg transition-all"
+                    >
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-6"
+                        >
+                            <i
+                                data-lucide="globe"
+                                class="w-8 h-8 text-white"
+                            ></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-aziend-dark mb-4">
+                            Foreign Exchange Services
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Competitive FX rates and hedging strategies to
+                            protect your business from currency fluctuations.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-green-600"
+                                ></i>
+                                Spot & forward contracts
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-green-600"
+                                ></i>
+                                Currency hedging
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-green-600"
+                                ></i>
+                                Multi-currency accounts
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Trade Finance Solutions -->
+                    <div
+                        class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl border border-purple-200 hover:shadow-lg transition-all"
+                    >
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-purple-600 to-purple-700 rounded-xl flex items-center justify-center mb-6"
+                        >
+                            <i
+                                data-lucide="ship"
+                                class="w-8 h-8 text-white"
+                            ></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-aziend-dark mb-4">
+                            Trade Finance Solutions
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Facilitate international trade with letters of
+                            credit, guarantees, and documentary collections.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-purple-600"
+                                ></i>
+                                Letters of Credit
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-purple-600"
+                                ></i>
+                                Bank guarantees
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-purple-600"
+                                ></i>
+                                Export finance
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Payment Processing Setup -->
+                    <div
+                        class="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl border border-orange-200 hover:shadow-lg transition-all"
+                    >
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-orange-600 to-orange-700 rounded-xl flex items-center justify-center mb-6"
+                        >
+                            <i
+                                data-lucide="credit-card"
+                                class="w-8 h-8 text-white"
+                            ></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-aziend-dark mb-4">
+                            Payment Processing Setup
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Streamline your payment operations with modern
+                            payment gateways and merchant services.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-orange-600"
+                                ></i>
+                                Merchant accounts
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-orange-600"
+                                ></i>
+                                POS system setup
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-orange-600"
+                                ></i>
+                                Online payment gateways
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Investment Advisory -->
+                    <div
+                        class="bg-gradient-to-br from-indigo-50 to-indigo-100 p-8 rounded-2xl border border-indigo-200 hover:shadow-lg transition-all"
+                    >
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-xl flex items-center justify-center mb-6"
+                        >
+                            <i
+                                data-lucide="bar-chart-3"
+                                class="w-8 h-8 text-white"
+                            ></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-aziend-dark mb-4">
+                            Investment Advisory
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Maximize returns on surplus cash with tailored
+                            investment solutions and portfolio management.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-indigo-600"
+                                ></i>
+                                Portfolio management
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-indigo-600"
+                                ></i>
+                                Fixed deposits
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-indigo-600"
+                                ></i>
+                                Islamic investments
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Risk Management -->
+                    <div
+                        class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-2xl border border-red-200 hover:shadow-lg transition-all"
+                    >
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-red-600 to-red-700 rounded-xl flex items-center justify-center mb-6"
+                        >
+                            <i
+                                data-lucide="shield-check"
+                                class="w-8 h-8 text-white"
+                            ></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-aziend-dark mb-4">
+                            Risk Management
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Comprehensive risk assessment and mitigation
+                            strategies for your financial operations.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-red-600"
+                                ></i>
+                                Risk assessment
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-red-600"
+                                ></i>
+                                Insurance coordination
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-4 h-4 mr-2 text-red-600"
+                                ></i>
+                                Compliance monitoring
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Packages -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+                    >
+                        Banking Service Packages
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Choose the perfect banking support package for your
+                        business needs
+                    </p>
+                </div>
+
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+                >
+                    <!-- Basic Banking -->
+                    <div
+                        class="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all"
+                    >
+                        <div class="text-center mb-6">
+                            <div
+                                class="inline-flex items-center justify-center w-16 h-16 bg-gray-100 rounded-xl mb-4"
+                            >
+                                <i
+                                    data-lucide="building"
+                                    class="w-8 h-8 text-gray-600"
+                                ></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">
+                                Basic Banking
+                            </h3>
+                            <div class="text-3xl font-bold text-gray-800 mb-1">
+                                AED 4,500
+                            </div>
+                            <div class="text-sm text-gray-600">
+                                Single account opening
+                            </div>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm"
+                                    >Account opening support</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm"
+                                    >Document preparation</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm"
+                                    >Bank selection guidance</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm">KYC compliance</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="x"
+                                    class="w-5 h-5 mr-3 text-gray-400"
+                                ></i>
+                                <span class="text-sm text-gray-400"
+                                    >Multiple accounts</span
+                                >
+                            </li>
+                        </ul>
+                        <button
+                            class="w-full bg-gray-100 text-gray-800 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-colors"
+                        >
+                            Get Started
+                        </button>
+                    </div>
+
+                    <!-- Professional Banking -->
+                    <div
+                        class="bg-white p-8 rounded-2xl border-2 border-custom-600 hover:shadow-lg transition-all relative"
+                    >
+                        <div
+                            class="absolute -top-4 left-1/2 transform -translate-x-1/2"
+                        >
+                            <span
+                                class="bg-custom-600 text-white px-4 py-1 rounded-full text-sm font-semibold"
+                                >Most Popular</span
+                            >
+                        </div>
+                        <div class="text-center mb-6">
+                            <div
+                                class="inline-flex items-center justify-center w-16 h-16 bg-custom-100 rounded-xl mb-4"
+                            >
+                                <i
+                                    data-lucide="briefcase"
+                                    class="w-8 h-8 text-custom-600"
+                                ></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">
+                                Professional Banking
+                            </h3>
+                            <div class="text-3xl font-bold text-gray-800 mb-1">
+                                AED 7,500
+                            </div>
+                            <div class="text-sm text-gray-600">
+                                Multi-account + setup
+                            </div>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm">Everything in Basic</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm"
+                                    >Multiple bank accounts</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm"
+                                    >Online banking setup</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm"
+                                    >Debit card assistance</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm"
+                                    >Payment gateway setup</span
+                                >
+                            </li>
+                        </ul>
+                        <button
+                            class="w-full bg-custom-600 text-white py-3 rounded-lg font-semibold hover:bg-custom-700 transition-colors"
+                        >
+                            Choose Professional
+                        </button>
+                    </div>
+
+                    <!-- Enterprise Treasury -->
+                    <div
+                        class="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all"
+                    >
+                        <div class="text-center mb-6">
+                            <div
+                                class="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-xl mb-4"
+                            >
+                                <i
+                                    data-lucide="building-2"
+                                    class="w-8 h-8 text-blue-600"
+                                ></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-aziend-dark mb-2">
+                                Enterprise Treasury
+                            </h3>
+                            <div
+                                class="text-3xl font-bold text-aziend-dark mb-1"
+                            >
+                                AED 15,000
+                            </div>
+                            <div class="text-sm text-gray-600">
+                                Complete treasury management
+                            </div>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm"
+                                    >Everything in Professional</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm">Treasury management</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm">FX & trade finance</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm">Investment advisory</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-green-600"
+                                ></i>
+                                <span class="text-sm">Risk management</span>
+                            </li>
+                        </ul>
+                        <button
+                            class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                        >
+                            Choose Enterprise
+                        </button>
+                    </div>
+
+                    <!-- Banking Concierge -->
+                    <div
+                        class="bg-gradient-to-br from-gray-900 to-gray-800 text-white p-8 rounded-2xl hover:shadow-lg transition-all"
+                    >
+                        <div class="text-center mb-6">
+                            <div
+                                class="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-xl mb-4"
+                            >
+                                <i
+                                    data-lucide="crown"
+                                    class="w-8 h-8 text-custom-600"
+                                ></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">
+                                Banking Concierge
+                            </h3>
+                            <div class="text-3xl font-bold mb-1">
+                                AED 25,000
+                            </div>
+                            <div class="text-sm text-gray-200">
+                                VIP service + relationship management
+                            </div>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-aziend-yellow"
+                                ></i>
+                                <span class="text-sm"
+                                    >Everything in Enterprise</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-aziend-yellow"
+                                ></i>
+                                <span class="text-sm"
+                                    >Dedicated relationship manager</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-aziend-yellow"
+                                ></i>
+                                <span class="text-sm"
+                                    >Priority bank processing</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-aziend-yellow"
+                                ></i>
+                                <span class="text-sm"
+                                    >Ongoing relationship support</span
+                                >
+                            </li>
+                            <li class="flex items-center">
+                                <i
+                                    data-lucide="check"
+                                    class="w-5 h-5 mr-3 text-aziend-yellow"
+                                ></i>
+                                <span class="text-sm"
+                                    >Annual banking strategy</span
+                                >
+                            </li>
+                        </ul>
+                        <button
+                            class="w-full bg-custom-600 text-white py-3 rounded-lg font-semibold hover:bg-custom-700 transition-colors"
+                        >
+                            Get VIP Service
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KYC Documentation Guide -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold text-aziend-dark mb-4"
+                    >
+                        KYC Documentation Guide
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Complete documentation requirements and preparation
+                        timeline for different business structures
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Mainland Companies -->
+                    <div
+                        class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl border border-blue-200"
+                    >
+                        <div class="flex items-center mb-6">
+                            <div
+                                class="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center mr-4"
+                            >
+                                <i
+                                    data-lucide="building"
+                                    class="w-6 h-6 text-white"
+                                ></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-aziend-dark">
+                                Mainland Companies
+                            </h3>
+                        </div>
+
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-3">
+                                    Required Documents:
+                                </h4>
+                                <ul class="space-y-2 text-sm">
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-blue-600"
+                                        ></i>
+                                        Trade License (DED)
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-blue-600"
+                                        ></i>
+                                        Memorandum of Association
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-blue-600"
+                                        ></i>
+                                        Certificate of Incorporation
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-blue-600"
+                                        ></i>
+                                        Board Resolution
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="users"
+                                            class="w-4 h-4 mr-2 text-blue-600"
+                                        ></i>
+                                        Shareholders' Passports
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="credit-card"
+                                            class="w-4 h-4 mr-2 text-blue-600"
+                                        ></i>
+                                        Emirates ID (UAE residents)
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-3">
+                                    Processing Timeline:
+                                </h4>
+                                <div class="bg-white p-4 rounded-lg">
+                                    <div
+                                        class="flex justify-between items-center mb-2"
+                                    >
+                                        <span class="text-sm"
+                                            >Document Preparation:</span
+                                        >
+                                        <span class="text-sm font-semibold"
+                                            >3-5 days</span
+                                        >
+                                    </div>
+                                    <div
+                                        class="flex justify-between items-center mb-2"
+                                    >
+                                        <span class="text-sm"
+                                            >Bank Application:</span
+                                        >
+                                        <span class="text-sm font-semibold"
+                                            >1-2 weeks</span
+                                        >
+                                    </div>
+                                    <div
+                                        class="flex justify-between items-center"
+                                    >
+                                        <span class="text-sm font-semibold"
+                                            >Total:</span
+                                        >
+                                        <span
+                                            class="text-sm font-bold text-blue-600"
+                                            >2-3 weeks</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Free Zone Companies -->
+                    <div
+                        class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl border border-green-200"
+                    >
+                        <div class="flex items-center mb-6">
+                            <div
+                                class="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center mr-4"
+                            >
+                                <i
+                                    data-lucide="globe"
+                                    class="w-6 h-6 text-white"
+                                ></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-aziend-dark">
+                                Free Zone Companies
+                            </h3>
+                        </div>
+
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-3">
+                                    Required Documents:
+                                </h4>
+                                <ul class="space-y-2 text-sm">
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-green-600"
+                                        ></i>
+                                        Free Zone License
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-green-600"
+                                        ></i>
+                                        Certificate of Incorporation
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-green-600"
+                                        ></i>
+                                        Shareholder Agreement
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-green-600"
+                                        ></i>
+                                        Board Resolution
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="users"
+                                            class="w-4 h-4 mr-2 text-green-600"
+                                        ></i>
+                                        Shareholders' Passports
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="shield-check"
+                                            class="w-4 h-4 mr-2 text-green-600"
+                                        ></i>
+                                        No Objection Certificate
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-3">
+                                    Processing Timeline:
+                                </h4>
+                                <div class="bg-white p-4 rounded-lg">
+                                    <div
+                                        class="flex justify-between items-center mb-2"
+                                    >
+                                        <span class="text-sm"
+                                            >Document Preparation:</span
+                                        >
+                                        <span class="text-sm font-semibold"
+                                            >2-4 days</span
+                                        >
+                                    </div>
+                                    <div
+                                        class="flex justify-between items-center mb-2"
+                                    >
+                                        <span class="text-sm"
+                                            >Bank Application:</span
+                                        >
+                                        <span class="text-sm font-semibold"
+                                            >2-4 weeks</span
+                                        >
+                                    </div>
+                                    <div
+                                        class="flex justify-between items-center"
+                                    >
+                                        <span class="text-sm font-semibold"
+                                            >Total:</span
+                                        >
+                                        <span
+                                            class="text-sm font-bold text-green-600"
+                                            >3-5 weeks</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Offshore Companies -->
+                    <div
+                        class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl border border-purple-200"
+                    >
+                        <div class="flex items-center mb-6">
+                            <div
+                                class="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center mr-4"
+                            >
+                                <i
+                                    data-lucide="anchor"
+                                    class="w-6 h-6 text-white"
+                                ></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-aziend-dark">
+                                Offshore Companies
+                            </h3>
+                        </div>
+
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-3">
+                                    Required Documents:
+                                </h4>
+                                <ul class="space-y-2 text-sm">
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-purple-600"
+                                        ></i>
+                                        Certificate of Incorporation
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-purple-600"
+                                        ></i>
+                                        Memorandum & Articles
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-text"
+                                            class="w-4 h-4 mr-2 text-purple-600"
+                                        ></i>
+                                        Register of Directors
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="shield-check"
+                                            class="w-4 h-4 mr-2 text-purple-600"
+                                        ></i>
+                                        Good Standing Certificate
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="file-check"
+                                            class="w-4 h-4 mr-2 text-purple-600"
+                                        ></i>
+                                        Apostilled Documents
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i
+                                            data-lucide="users"
+                                            class="w-4 h-4 mr-2 text-purple-600"
+                                        ></i>
+                                        Beneficial Ownership Declaration
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-3">
+                                    Processing Timeline:
+                                </h4>
+                                <div class="bg-white p-4 rounded-lg">
+                                    <div
+                                        class="flex justify-between items-center mb-2"
+                                    >
+                                        <span class="text-sm"
+                                            >Document Preparation:</span
+                                        >
+                                        <span class="text-sm font-semibold"
+                                            >1-2 weeks</span
+                                        >
+                                    </div>
+                                    <div
+                                        class="flex justify-between items-center mb-2"
+                                    >
+                                        <span class="text-sm"
+                                            >Bank Application:</span
+                                        >
+                                        <span class="text-sm font-semibold"
+                                            >4-8 weeks</span
+                                        >
+                                    </div>
+                                    <div
+                                        class="flex justify-between items-center"
+                                    >
+                                        <span class="text-sm font-semibold"
+                                            >Total:</span
+                                        >
+                                        <span
+                                            class="text-sm font-bold text-purple-600"
+                                            >5-10 weeks</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital Submission Process -->
+                <div
+                    class="mt-16 bg-gradient-to-r from-aziend-dark to-aziend-darker text-white p-8 rounded-2xl"
+                >
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold mb-4">
+                            Digital Submission Process
+                        </h3>
+                        <p class="text-gray-300">
+                            Streamlined digital workflow for faster processing
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                        <div class="text-center">
+                            <div
+                                class="w-16 h-16 bg-aziend-yellow rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-aziend-dark font-bold text-xl"
+                                    >1</span
+                                >
+                            </div>
+                            <h4 class="font-semibold mb-2">Document Upload</h4>
+                            <p class="text-sm text-gray-300">
+                                Secure portal for document submission
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="w-16 h-16 bg-aziend-yellow rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-aziend-dark font-bold text-xl"
+                                    >2</span
+                                >
+                            </div>
+                            <h4 class="font-semibold mb-2">Verification</h4>
+                            <p class="text-sm text-gray-300">
+                                Automated compliance checking
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="w-16 h-16 bg-aziend-yellow rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-aziend-dark font-bold text-xl"
+                                    >3</span
+                                >
+                            </div>
+                            <h4 class="font-semibold mb-2">Bank Submission</h4>
+                            <p class="text-sm text-gray-300">
+                                Direct submission to chosen banks
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="w-16 h-16 bg-aziend-yellow rounded-xl flex items-center justify-center mx-auto mb-4"
+                            >
+                                <span class="text-aziend-dark font-bold text-xl"
+                                    >4</span
+                                >
+                            </div>
+                            <h4 class="font-semibold mb-2">Live Tracking</h4>
+                            <p class="text-sm text-gray-300">
+                                Real-time application status
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Stories -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold text-aziend-dark mb-4"
+                    >
+                        Success Stories
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Real results from businesses we've helped establish
+                        banking relationships in the UAE
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Case Study 1 -->
+                    <div
+                        class="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all"
+                    >
+                        <div class="flex items-center mb-6">
+                            <div
+                                class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mr-4"
+                            >
+                                <i
+                                    data-lucide="building-2"
+                                    class="w-6 h-6 text-blue-600"
+                                ></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-aziend-dark">
+                                    Tech Startup - DIFC
+                                </h3>
+                                <p class="text-sm text-gray-600">
+                                    FinTech Company
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-2">
+                                    Challenge:
+                                </h4>
+                                <p class="text-sm text-gray-600">
+                                    Complex regulatory requirements for
+                                    cryptocurrency trading platform
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-2">
+                                    Solution:
+                                </h4>
+                                <p class="text-sm text-gray-600">
+                                    Specialized DIFC banking setup with multiple
+                                    currency accounts
+                                </p>
+                            </div>
+
+                            <div
+                                class="grid grid-cols-2 gap-4 p-4 bg-gray-50 rounded-lg"
+                            >
+                                <div class="text-center">
+                                    <div
+                                        class="text-2xl font-bold text-blue-600"
+                                    >
+                                        18
+                                    </div>
+                                    <div class="text-xs text-gray-600">
+                                        Days to completion
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <div
+                                        class="text-2xl font-bold text-green-600"
+                                    >
+                                        3
+                                    </div>
+                                    <div class="text-xs text-gray-600">
+                                        Bank accounts
+                                    </div>
+                                </div>
+                            </div>
+
+                            <blockquote
+                                class="text-sm italic text-gray-600 border-l-4 border-aziend-yellow pl-4"
+                            >
+                                "Aziend made our complex banking needs simple.
+                                Their DIFC expertise was invaluable."
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 2 -->
+                    <div
+                        class="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all"
+                    >
+                        <div class="flex items-center mb-6">
+                            <div
+                                class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4"
+                            >
+                                <i
+                                    data-lucide="truck"
+                                    class="w-6 h-6 text-green-600"
+                                ></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-aziend-dark">
+                                    Trading Company
+                                </h3>
+                                <p class="text-sm text-gray-600">
+                                    Import/Export Business
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-2">
+                                    Challenge:
+                                </h4>
+                                <p class="text-sm text-gray-600">
+                                    Multiple international suppliers requiring
+                                    trade finance solutions
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-2">
+                                    Solution:
+                                </h4>
+                                <p class="text-sm text-gray-600">
+                                    Multi-bank setup with LC facilities and FX
+                                    hedging
+                                </p>
+                            </div>
+
+                            <div
+                                class="grid grid-cols-2 gap-4 p-4 bg-gray-50 rounded-lg"
+                            >
+                                <div class="text-center">
+                                    <div
+                                        class="text-2xl font-bold text-green-600"
+                                    >
+                                        2.5M
+                                    </div>
+                                    <div class="text-xs text-gray-600">
+                                        AED credit limit
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <div
+                                        class="text-2xl font-bold text-blue-600"
+                                    >
+                                        4
+                                    </div>
+                                    <div class="text-xs text-gray-600">
+                                        Weeks setup
+                                    </div>
+                                </div>
+                            </div>
+
+                            <blockquote
+                                class="text-sm italic text-gray-600 border-l-4 border-aziend-yellow pl-4"
+                            >
+                                "The trade finance solutions transformed our
+                                business operations completely."
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 3 -->
+                    <div
+                        class="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all"
+                    >
+                        <div class="flex items-center mb-6">
+                            <div
+                                class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mr-4"
+                            >
+                                <i
+                                    data-lucide="home"
+                                    class="w-6 h-6 text-purple-600"
+                                ></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-aziend-dark">
+                                    Real Estate Fund
+                                </h3>
+                                <p class="text-sm text-gray-600">
+                                    Investment Management
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-2">
+                                    Challenge:
+                                </h4>
+                                <p class="text-sm text-gray-600">
+                                    High-value transactions requiring premium
+                                    banking services
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-aziend-dark mb-2">
+                                    Solution:
+                                </h4>
+                                <p class="text-sm text-gray-600">
+                                    Private banking setup with dedicated
+                                    relationship manager
+                                </p>
+                            </div>
+
+                            <div
+                                class="grid grid-cols-2 gap-4 p-4 bg-gray-50 rounded-lg"
+                            >
+                                <div class="text-center">
+                                    <div
+                                        class="text-2xl font-bold text-purple-600"
+                                    >
+                                        50M
+                                    </div>
+                                    <div class="text-xs text-gray-600">
+                                        AED portfolio
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <div
+                                        class="text-2xl font-bold text-green-600"
+                                    >
+                                        6
+                                    </div>
+                                    <div class="text-xs text-gray-600">
+                                        Weeks complete
+                                    </div>
+                                </div>
+                            </div>
+
+                            <blockquote
+                                class="text-sm italic text-gray-600 border-l-4 border-aziend-yellow pl-4"
+                            >
+                                "Exceptional service and attention to detail.
+                                Highly professional team."
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold text-aziend-dark mb-4"
+                    >
+                        Frequently Asked Questions
+                    </h2>
+                    <p class="text-xl text-gray-600">
+                        Common questions about UAE corporate banking and our
+                        services
+                    </p>
+                </div>
+
+                <div class="space-y-6">
+                    <div
+                        class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-all"
+                    >
+                        <h3
+                            class="text-lg font-semibold text-aziend-dark mb-3 flex items-center"
+                        >
+                            <i
+                                data-lucide="help-circle"
+                                class="w-5 h-5 mr-3 text-aziend-yellow"
+                            ></i>
+                            What is the minimum balance requirement for UAE
+                            corporate accounts?
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Minimum balance requirements vary by bank and
+                            account type, ranging from AED 10,000 for basic
+                            business accounts to AED 100,000 for premium
+                            services. We help you find banks that match your
+                            cash flow needs and negotiate better terms based on
+                            your business profile.
+                        </p>
+                    </div>
+
+                    <div
+                        class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-all"
+                    >
+                        <h3
+                            class="text-lg font-semibold text-aziend-dark mb-3 flex items-center"
+                        >
+                            <i
+                                data-lucide="clock"
+                                class="w-5 h-5 mr-3 text-aziend-yellow"
+                            ></i>
+                            How long does it take to open a corporate bank
+                            account in UAE?
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Account opening typically takes 2-6 weeks depending
+                            on the bank, business type, and completeness of
+                            documentation. UAE national banks (Emirates NBD,
+                            ADCB) are generally faster (2-4 weeks), while
+                            international banks may take 4-6 weeks due to
+                            additional compliance requirements.
+                        </p>
+                    </div>
+
+                    <div
+                        class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-all"
+                    >
+                        <h3
+                            class="text-lg font-semibold text-aziend-dark mb-3 flex items-center"
+                        >
+                            <i
+                                data-lucide="file-text"
+                                class="w-5 h-5 mr-3 text-aziend-yellow"
+                            ></i>
+                            What documents are required for account opening?
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Standard requirements include trade license,
+                            memorandum of association, board resolution,
+                            shareholders' passports, and Emirates ID for UAE
+                            residents. Free zone and offshore companies have
+                            slightly different requirements. We provide a
+                            complete checklist and help with document
+                            preparation.
+                        </p>
+                    </div>
+
+                    <div
+                        class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-all"
+                    >
+                        <h3
+                            class="text-lg font-semibold text-aziend-dark mb-3 flex items-center"
+                        >
+                            <i
+                                data-lucide="building-2"
+                                class="w-5 h-5 mr-3 text-aziend-yellow"
+                            ></i>
+                            Can I open accounts with multiple banks?
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Yes, many businesses maintain accounts with multiple
+                            banks for diversification, better service access,
+                            and competitive rates. We recommend a primary
+                            relationship bank plus 1-2 secondary banks. This
+                            strategy provides backup options and access to
+                            different banking products and services.
+                        </p>
+                    </div>
+
+                    <div
+                        class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-all"
+                    >
+                        <h3
+                            class="text-lg font-semibold text-aziend-dark mb-3 flex items-center"
+                        >
+                            <i
+                                data-lucide="shield-check"
+                                class="w-5 h-5 mr-3 text-aziend-yellow"
+                            ></i>
+                            Are Islamic banking options available?
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Yes, UAE offers comprehensive Islamic banking
+                            services through institutions like ADIB, Dubai
+                            Islamic Bank, and Mashreq Al Islami. These provide
+                            Sharia-compliant products including Murabaha
+                            financing, Ijara leasing, and Islamic investment
+                            accounts. All major conventional banks also offer
+                            Islamic windows.
+                        </p>
+                    </div>
+
+                    <div
+                        class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-all"
+                    >
+                        <h3
+                            class="text-lg font-semibold text-aziend-dark mb-3 flex items-center"
+                        >
+                            <i
+                                data-lucide="globe"
+                                class="w-5 h-5 mr-3 text-aziend-yellow"
+                            ></i>
+                            Can offshore companies open UAE bank accounts?
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Yes, but with additional requirements and longer
+                            processing times (5-10 weeks). Offshore companies
+                            need economic substance documentation, beneficial
+                            ownership declarations, and apostilled documents. We
+                            specialize in offshore banking and have strong
+                            relationships with banks that accept these
+                            structures.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-center mt-12">
+                    <button
+                        class="bg-aziend-yellow text-aziend-dark px-8 py-4 rounded-lg font-semibold hover:bg-yellow-400 transition-all transform hover:scale-105 flex items-center justify-center space-x-2 mx-auto"
+                    >
+                        <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        <span>Ask More Questions</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Quote Section -->
+        <section class="py-20 gradient-bg text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                        Ready to Open Your Corporate Account?
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Get expert guidance and streamlined banking setup for
+                        your UAE business
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <!-- Contact Information -->
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-6">
+                                Get Your Banking Package
+                            </h3>
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-aziend-yellow rounded-xl flex items-center justify-center"
+                                    >
+                                        <i
+                                            data-lucide="phone"
+                                            class="w-6 h-6 text-aziend-dark"
+                                        ></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-semibold">
+                                            Schedule Consultation
+                                        </div>
+                                        <div class="text-gray-300">
+                                            Free 30-minute banking strategy
+                                            session
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-aziend-yellow rounded-xl flex items-center justify-center"
+                                    >
+                                        <i
+                                            data-lucide="download"
+                                            class="w-6 h-6 text-aziend-dark"
+                                        ></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-semibold">
+                                            Download KYC Checklist
+                                        </div>
+                                        <div class="text-gray-300">
+                                            Complete documentation guide
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-aziend-yellow rounded-xl flex items-center justify-center"
+                                    >
+                                        <i
+                                            data-lucide="calculator"
+                                            class="w-6 h-6 text-aziend-dark"
+                                        ></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-semibold">
+                                            Custom Quote
+                                        </div>
+                                        <div class="text-gray-300">
+                                            Tailored pricing for your needs
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white/10 p-6 rounded-xl">
+                            <h4 class="font-semibold mb-4">
+                                Banking Package Benefits:
+                            </h4>
+                            <ul class="space-y-2 text-sm">
+                                <li class="flex items-center">
+                                    <i
+                                        data-lucide="check"
+                                        class="w-4 h-4 mr-2 text-aziend-yellow"
+                                    ></i>
+                                    Guaranteed account opening or money back
+                                </li>
+                                <li class="flex items-center">
+                                    <i
+                                        data-lucide="check"
+                                        class="w-4 h-4 mr-2 text-aziend-yellow"
+                                    ></i>
+                                    Access to 50+ bank partners
+                                </li>
+                                <li class="flex items-center">
+                                    <i
+                                        data-lucide="check"
+                                        class="w-4 h-4 mr-2 text-aziend-yellow"
+                                    ></i>
+                                    Dedicated relationship manager
+                                </li>
+                                <li class="flex items-center">
+                                    <i
+                                        data-lucide="check"
+                                        class="w-4 h-4 mr-2 text-aziend-yellow"
+                                    ></i>
+                                    Ongoing banking support
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="bg-white p-8 rounded-2xl">
+                        <h3 class="text-2xl font-bold text-aziend-dark mb-6">
+                            Get Started Today
+                        </h3>
+                        <form class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label
+                                        class="block text-sm font-semibold text-aziend-dark mb-2"
+                                        >First Name</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="w-full p-4 border border-gray-300 rounded-lg focus:border-aziend-yellow focus:outline-none"
+                                    />
+                                </div>
+                                <div>
+                                    <label
+                                        class="block text-sm font-semibold text-aziend-dark mb-2"
+                                        >Last Name</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="w-full p-4 border border-gray-300 rounded-lg focus:border-aziend-yellow focus:outline-none"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-aziend-dark mb-2"
+                                    >Email</label
+                                >
+                                <input
+                                    type="email"
+                                    class="w-full p-4 border border-gray-300 rounded-lg focus:border-aziend-yellow focus:outline-none"
+                                />
+                            </div>
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-aziend-dark mb-2"
+                                    >Phone</label
+                                >
+                                <input
+                                    type="tel"
+                                    class="w-full p-4 border border-gray-300 rounded-lg focus:border-aziend-yellow focus:outline-none"
+                                />
+                            </div>
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-aziend-dark mb-2"
+                                    >Business Type</label
+                                >
+                                <select
+                                    class="w-full p-4 border border-gray-300 rounded-lg focus:border-aziend-yellow focus:outline-none"
+                                >
+                                    <option>Select business type</option>
+                                    <option>Mainland Company</option>
+                                    <option>Free Zone Company</option>
+                                    <option>Offshore Company</option>
+                                    <option>Branch Office</option>
+                                    <option>Representative Office</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-aziend-dark mb-2"
+                                    >Service Package</label
+                                >
+                                <select
+                                    class="w-full p-4 border border-gray-300 rounded-lg focus:border-aziend-yellow focus:outline-none"
+                                >
+                                    <option>Select package</option>
+                                    <option>Basic Banking (AED 4,500)</option>
+                                    <option>
+                                        Professional Banking (AED 7,500)
+                                    </option>
+                                    <option>
+                                        Enterprise Treasury (AED 15,000)
+                                    </option>
+                                    <option>
+                                        Banking Concierge (AED 25,000)
+                                    </option>
+                                </select>
+                            </div>
+                            <div>
+                                <label
+                                    class="block text-sm font-semibold text-aziend-dark mb-2"
+                                    >Message</label
+                                >
+                                <textarea
+                                    rows="4"
+                                    class="w-full p-4 border border-gray-300 rounded-lg focus:border-aziend-yellow focus:outline-none"
+                                    placeholder="Tell us about your banking requirements..."
+                                ></textarea>
+                            </div>
+                            <button
+                                type="submit"
+                                class="w-full bg-aziend-yellow text-aziend-dark py-4 rounded-lg font-semibold hover:bg-yellow-400 transition-colors"
+                            >
+                                Get Banking Quote
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+        <script>
+            // Banking Calculator Functions
+            function initializeBankingCalculator() {
+                const turnoverSlider =
+                    document.getElementById("turnoverSlider");
+                const turnoverValue = document.getElementById("turnoverValue");
+                const businessTypeButtons =
+                    document.querySelectorAll(".business-type-btn");
+
+                // Turnover slider
+                if (turnoverSlider) {
+                    turnoverSlider.addEventListener("input", function () {
+                        const value = parseInt(this.value);
+                        turnoverValue.textContent = `AED ${value.toLocaleString()}`;
+                    });
+                }
+
+                // Business type selection
+                businessTypeButtons.forEach((button) => {
+                    button.addEventListener("click", function () {
+                        businessTypeButtons.forEach((btn) =>
+                            btn.classList.remove(
+                                "border-aziend-yellow",
+                                "bg-aziend-yellow/10"
+                            )
+                        );
+                        this.classList.add(
+                            "border-aziend-yellow",
+                            "bg-aziend-yellow/10"
+                        );
+                    });
+                });
+            }
+
+            function calculateBankingCosts() {
+                const bank = document.getElementById("bankSelect").value;
+                const accountType =
+                    document.getElementById("accountType").value;
+                const turnover = parseInt(
+                    document.getElementById("turnoverSlider").value
+                );
+                const businessType = document.querySelector(
+                    ".business-type-btn.border-aziend-yellow"
+                )?.dataset.type;
+
+                if (!bank || !accountType || !businessType) {
+                    alert(
+                        "Please select all required options to calculate costs."
+                    );
+                    return;
+                }
+
+                // Use the comprehensive bankingData object from script.js
+                if (
+                    typeof window.AziendApp !== "undefined" &&
+                    window.AziendApp.bankingData
+                ) {
+                    const bankingData = window.AziendApp.bankingData;
+
+                    // Find bank partner information
+                    const bankPartner = bankingData.bankPartners.find(
+                        (bp) =>
+                            bp.name
+                                .toLowerCase()
+                                .includes(bank.toLowerCase()) ||
+                            bank
+                                .toLowerCase()
+                                .includes(
+                                    bp.name
+                                        .toLowerCase()
+                                        .split(" ")[0]
+                                        .toLowerCase()
+                                )
+                    );
+
+                    // Get pricing structure
+                    const isTier1 = [
+                        "enbd",
+                        "emirates",
+                        "adcb",
+                        "fab",
+                        "hsbc",
+                    ].some((name) => bank.toLowerCase().includes(name));
+
+                    const basePricing = isTier1
+                        ? bankingData.pricingStructure.tier1Banks
+                        : bankingData.pricingStructure.tier2Banks;
+
+                    // Calculate fees
+                    const setupFee = basePricing.setupFee;
+                    const relationshipFee = basePricing.relationshipFee;
+                    const accountTypeFee =
+                        bankingData.pricingStructure.accountTypeFees[
+                            accountType
+                        ] || 0;
+                    const businessTypeFee =
+                        bankingData.pricingStructure.businessTypeFees[
+                            businessType
+                        ] || 0;
+
+                    // Determine turnover multiplier
+                    let turnoverMultiplier = 1.0;
+                    if (turnover <= 500000) turnoverMultiplier = 1.0;
+                    else if (turnover <= 2000000) turnoverMultiplier = 1.2;
+                    else if (turnover <= 10000000) turnoverMultiplier = 1.5;
+                    else turnoverMultiplier = 2.0;
+
+                    const complexityMultiplier =
+                        basePricing.complexityMultiplier;
+                    const totalFee = Math.round(
+                        (setupFee +
+                            relationshipFee +
+                            accountTypeFee +
+                            businessTypeFee) *
+                            complexityMultiplier *
+                            turnoverMultiplier
+                    );
+
+                    // Update display with comprehensive information
+                    document.getElementById(
+                        "openingFee"
+                    ).textContent = `AED ${totalFee.toLocaleString()}`;
+                    document.getElementById("minBalance").textContent = `AED ${
+                        bankPartner?.minInitialDeposit?.toLocaleString() ||
+                        "5,000"
+                    }`;
+                    document.getElementById("monthlyFee").textContent = `AED ${
+                        bankingData.accountTypes[accountType]?.avgMonthlyFee ||
+                        100
+                    }`;
+
+                    // Update requirements using comprehensive KYC data
+                    updateRequirementsList(
+                        businessType,
+                        accountType,
+                        bankingData
+                    );
+                    updateTimeline(bank, bankPartner);
+                } else {
+                    // Fallback to basic calculation if bankingData not available
+                    let openingFee = 500;
+                    let minBalance = 25000;
+                    let monthlyFee = 150;
+
+                    // Adjust based on bank selection
+                    const bankMultipliers = {
+                        enbd: { opening: 1.2, balance: 1.0, monthly: 1.1 },
+                        adcb: { opening: 1.1, balance: 0.8, monthly: 1.0 },
+                        fab: { opening: 1.3, balance: 1.2, monthly: 1.2 },
+                        mashreq: { opening: 1.0, balance: 0.9, monthly: 0.9 },
+                        cbd: { opening: 0.9, balance: 0.6, monthly: 0.8 },
+                        hsbc: { opening: 1.5, balance: 2.0, monthly: 1.5 },
+                        sc: { opening: 1.4, balance: 1.6, monthly: 1.3 },
+                        rakbank: { opening: 0.8, balance: 0.4, monthly: 0.7 },
+                    };
+
+                    if (bankMultipliers[bank]) {
+                        const multiplier = bankMultipliers[bank];
+                        openingFee *= multiplier.opening;
+                        minBalance *= multiplier.balance;
+                        monthlyFee *= multiplier.monthly;
+                    }
+
+                    // Update display
+                    document.getElementById(
+                        "openingFee"
+                    ).textContent = `AED ${openingFee.toLocaleString()}`;
+                    document.getElementById(
+                        "minBalance"
+                    ).textContent = `AED ${minBalance.toLocaleString()}`;
+                    document.getElementById(
+                        "monthlyFee"
+                    ).textContent = `AED ${monthlyFee.toLocaleString()}`;
+
+                    // Update requirements and timeline with basic data
+                    updateRequirementsList(businessType, accountType);
+                    updateTimeline(bank);
+                }
+            }
+
+            function updateRequirementsList(
+                businessType,
+                accountType,
+                bankingData = null
+            ) {
+                const requirementsList =
+                    document.getElementById("requirementsList");
+
+                if (
+                    bankingData &&
+                    bankingData.kycRequirements &&
+                    bankingData.kycRequirements[businessType]
+                ) {
+                    // Use comprehensive KYC requirements from bankingData
+                    const kycData = bankingData.kycRequirements[businessType];
+                    const docs = kycData.documents || [];
+
+                    requirementsList.innerHTML = docs
+                        .map(
+                            (doc) => `
+                        <li class="flex items-center">
+                            <i data-lucide="file-text" class="w-4 h-4 mr-2 text-aziend-yellow"></i>
+                            ${doc}
+                        </li>
+                    `
+                        )
+                        .join("");
+
+                    // Add processing time info
+                    if (kycData.processingTime) {
+                        requirementsList.innerHTML += `
+                            <li class="mt-3 pt-3 border-t border-gray-200 text-sm text-gray-600">
+                                <i data-lucide="clock" class="w-4 h-4 mr-2 text-aziend-yellow inline"></i>
+                                Processing time: ${kycData.processingTime}
+                            </li>
+                        `;
+                    }
+                } else {
+                    // Fallback to basic requirements
+                    const requirements = {
+                        mainland: [
+                            "Trade License (DED)",
+                            "Memorandum of Association",
+                            "Certificate of Incorporation",
+                            "Board Resolution",
+                            "Passport copies of shareholders",
+                            "Emirates ID of UAE residents",
+                        ],
+                        freezone: [
+                            "Free Zone License",
+                            "Certificate of Incorporation",
+                            "Shareholder Agreement",
+                            "Board Resolution",
+                            "Passport copies",
+                            "No Objection Certificate",
+                        ],
+                        offshore: [
+                            "Certificate of Incorporation",
+                            "Memorandum & Articles",
+                            "Register of Directors",
+                            "Good Standing Certificate",
+                            "Apostilled documents",
+                            "Beneficial Ownership Declaration",
+                        ],
+                    };
+
+                    const docs = requirements[businessType] || [];
+                    requirementsList.innerHTML = docs
+                        .map(
+                            (doc) => `
+                        <li class="flex items-center">
+                            <i data-lucide="file-text" class="w-4 h-4 mr-2"></i>
+                            ${doc}
+                        </li>
+                    `
+                        )
+                        .join("");
+                }
+
+                // Re-initialize icons
+                if (typeof lucide !== "undefined") {
+                    lucide.createIcons();
+                }
+            }
+
+            function updateTimeline(bank, bankPartner = null) {
+                const timelineInfo = document.getElementById("timelineInfo");
+
+                if (bankPartner && bankPartner.avgProcessingTime) {
+                    // Use data from comprehensive bank partner information
+                    const timeline = bankPartner.avgProcessingTime;
+                    const successRate = bankPartner.successRate || 85;
+
+                    timelineInfo.innerHTML = `
+                        <div class="space-y-2">
+                            <div class="flex items-center justify-between">
+                                <span>Expected Duration:</span>
+                                <span class="font-semibold">${timeline}</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span>Success Rate:</span>
+                                <span class="font-semibold text-green-600">${successRate}%</span>
+                            </div>
+                            ${
+                                bankPartner.relationshipManager
+                                    ? `
+                                <div class="flex items-center justify-between text-sm">
+                                    <span>Relationship Manager:</span>
+                                    <span class="text-custom-600 font-medium">Available</span>
+                                </div>
+                            `
+                                    : ""
+                            }
+                        </div>
+                    `;
+                } else {
+                    // Fallback to basic timeline data
+                    const timelines = {
+                        enbd: "3-4 weeks",
+                        adcb: "2-3 weeks",
+                        fab: "3-5 weeks",
+                        mashreq: "2-4 weeks",
+                        cbd: "2-4 weeks",
+                        hsbc: "4-6 weeks",
+                        sc: "3-5 weeks",
+                        rakbank: "2-3 weeks",
+                    };
+
+                    const timeline =
+                        timelines[bank] || "Select bank for timeline";
+                    timelineInfo.innerHTML = `
+                        <div class="flex items-center justify-between">
+                            <span>Expected Duration:</span>
+                            <span class="font-semibold">${timeline}</span>
+                        </div>
+                    `;
+                }
+            }
+
+            // Initialize calculator when page loads
+            document.addEventListener("DOMContentLoaded", function () {
+                // Wait for script.js to load and make bankingData available
+                function initWhenReady() {
+                    if (
+                        typeof window.AziendApp !== "undefined" &&
+                        window.AziendApp.bankingData
+                    ) {
+                        console.log("Banking data loaded successfully");
+                        initializeBankingCalculator();
+                    } else {
+                        // Retry after a short delay
+                        setTimeout(initWhenReady, 100);
+                    }
+                }
+
+                initWhenReady();
+            });
+        </script>
+
+        <!-- Footer -->
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-white">
+            <!-- Main Footer -->
+            <div class="py-16">
+                <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+                    >
+                        <!-- Column 1: Aziend Branding -->
+                        <div class="lg:col-span-1">
+                            <div
+                                class="text-2xl font-bold text-custom-600 mb-4"
+                            >
+                                Aziend
+                            </div>
+                            <p class="text-custom-600 font-medium mb-3">
+                                Your UAE Business Success Partner
+                            </p>
+                            <p class="text-gray-300 mb-4 leading-relaxed">
+                                Expert UAE business consultancy providing
+                                comprehensive solutions for company formation,
+                                banking, compliance, and business growth across
+                                the Emirates.
+                            </p>
+                            <div class="flex items-center text-sm">
+                                <i
+                                    data-lucide="shield-check"
+                                    class="h-4 w-4 text-custom-600 mr-2"
+                                ></i>
+                                <span class="text-gray-300"
+                                    >DIFC Licensed & Regulated</span
+                                >
+                            </div>
+                        </div>
+
+                        <!-- Column 2: Services Navigation -->
+                        <div class="lg:col-span-1">
+                            <h3 class="text-lg font-semibold text-white mb-4">
+                                Our Services
+                            </h3>
+                            <ul class="space-y-3">
+                                <li>
+                                    <a
+                                        href="company-formation.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Company Formation</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="banking-treasury.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Banking & Treasury</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="customs-trade.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Customs & Trade</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="accounting-payroll-wps.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Accounting & Payroll</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="corporate-tax.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Corporate Tax</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="vat.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >VAT Services</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="ma-dd-valuations.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >M&A Advisory</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="corporate-governance-policies.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Corporate Governance</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="esr-ubo-aml.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >ESR & Compliance</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 3: Company Links -->
+                        <div class="lg:col-span-1">
+                            <h3 class="text-lg font-semibold text-white mb-4">
+                                Company
+                            </h3>
+                            <ul class="space-y-3">
+                                <li>
+                                    <a
+                                        href="about.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >About Us</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="services.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Services Overview</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="contact.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Contact Us</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="contact.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >Free Consultation</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="uae-business-setup.html"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >UAE Business Guide</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 4: Contact Information -->
+                        <div class="lg:col-span-1">
+                            <h3 class="text-lg font-semibold text-white mb-4">
+                                Get In Touch
+                            </h3>
+                            <div class="space-y-3">
+                                <div class="flex items-start">
+                                    <i
+                                        data-lucide="map-pin"
+                                        class="h-5 w-5 text-custom-600 mr-3 mt-0.5"
+                                    ></i>
+                                    <span class="text-gray-300"
+                                        >DIFC, Dubai, UAE</span
+                                    >
+                                </div>
+                                <div class="flex items-center">
+                                    <i
+                                        data-lucide="phone"
+                                        class="h-5 w-5 text-custom-600 mr-3"
+                                    ></i>
+                                    <a
+                                        href="tel:+971501234567"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >+971 50 123 4567</a
+                                    >
+                                </div>
+                                <div class="flex items-center">
+                                    <i
+                                        data-lucide="mail"
+                                        class="h-5 w-5 text-custom-600 mr-3"
+                                    ></i>
+                                    <a
+                                        href="mailto:info@aziend.com"
+                                        class="text-gray-300 hover:text-custom-600 transition-colors"
+                                        >info@aziend.com</a
+                                    >
+                                </div>
+                                <div class="flex items-start">
+                                    <i
+                                        data-lucide="clock"
+                                        class="h-5 w-5 text-custom-600 mr-3 mt-0.5"
+                                    ></i>
+                                    <span class="text-gray-300"
+                                        >Sun-Thu: 9AM-6PM GST</span
+                                    >
+                                </div>
+                                <div class="flex items-start">
+                                    <i
+                                        data-lucide="headphones"
+                                        class="h-5 w-5 text-custom-600 mr-3 mt-0.5"
+                                    ></i>
+                                    <span class="text-gray-300"
+                                        >24/7 Emergency Support</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer Bar -->
+            <div class="border-t border-gray-800">
+                <div
+                    class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16 py-6"
+                >
+                    <div
+                        class="flex flex-col md:flex-row justify-between items-center"
+                    >
+                        <!-- Copyright -->
+                        <div class="text-gray-400 text-sm mb-4 md:mb-0">
+                            © 2025 Aziend. All rights reserved.
+                        </div>
+
+                        <!-- Legal Links -->
+                        <div
+                            class="flex items-center space-x-6 text-sm mb-4 md:mb-0"
+                        >
+                            <a
+                                href="privacy-policy.html"
+                                class="text-gray-400 hover:text-custom-600 transition-colors"
+                                >Privacy Policy</a
+                            >
+                            <a
+                                href="terms-of-service.html"
+                                class="text-gray-400 hover:text-custom-600 transition-colors"
+                                >Terms of Service</a
+                            >
+                            <a
+                                href="cookie-policy.html"
+                                class="text-gray-400 hover:text-custom-600 transition-colors"
+                                >Cookie Policy</a
+                            >
+                        </div>
+
+                        <!-- Social Media Icons -->
+                        <div class="flex items-center space-x-4">
+                            <a
+                                href="#"
+                                class="text-gray-400 hover:text-custom-600 transition-colors"
+                            >
+                                <i data-lucide="linkedin" class="h-5 w-5"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-gray-400 hover:text-custom-600 transition-colors"
+                            >
+                                <i data-lucide="twitter" class="h-5 w-5"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-gray-400 hover:text-custom-600 transition-colors"
+                            >
+                                <i data-lucide="facebook" class="h-5 w-5"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-gray-400 hover:text-custom-600 transition-colors"
+                            >
+                                <i data-lucide="instagram" class="h-5 w-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+        <script>
+            // Initialize Lucide icons
+            if (typeof lucide !== "undefined") {
+                lucide.createIcons();
+            }
+        </script>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src =
+                    "https://embed.tawk.to/68b028a9890018192a45dbf9/1j3o1tm3k";
+                s1.charset = "UTF-8";
+                s1.setAttribute("crossorigin", "*");
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+    </body>
+</html>
